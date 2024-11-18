@@ -180,7 +180,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Dr. Emily Johnson">
+                    <img src="https://images.unsplash.com/photo-1612276529731-4b21494e6d71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Dr. Emily Johnson">
                     <div class="card-body">
                         <h5 class="card-title">Dr. Emily Johnson</h5>
                         <p class="card-text">Spesialis Penyakit Dalam dengan keahlian dalam diagnosis dan perawatan.</p>
@@ -238,7 +238,7 @@
                     <label for="namaObat" class="form-label">Nama Obat</label>
                     <select class="form-select" id="namaObat" name="namaObat" required>
                         <option value="" disabled selected>Pilih Obat</option>
-                        <option value="Paracetamol">Paracetamol</option>
+                        <option value="Paracetamol">Paracetamo</option>
                         <option value="Amoxicillin">Amoxicillin</option>
                         <option value="Loratadine">Loratadine</option>
                         <option value="Ibuprofen">Ibuprofen</option>
@@ -320,14 +320,20 @@
                             <label for="namaDokter" class="form-label">Nama Dokter</label>
                             <select class="form-select" id="namaDokter">
                                 <option value="" disabled selected>Pilih nama dokter</option>
-                                <option value="Dr. John Doe">dr. John Doe</option>
-                                <option value="Dr. Jane Smith">dr. Jane Smith</option>
-                                <option value="Dr. Emily Johnson">dr. Emily Johnson</option>
-                                <option value="dr. Andi Wijaya">dr. Andi Wijaya</option>
-                                <option value="dr. Budi Santoso">dr. Budi Santoso</option>
-                                <option value="dr. Citra Dewi">dr. Citra Dewi</option>
-                                <option value="dr. Dian Pratama">dr. Dian Pratama</option>
-                                <option value="dr. Eka Putri">dr. Eka Putri</option>
+                                <optgroup label="Spesialis Bedah Umum">
+                                    <option value="Dr. John Doe">dr. John Doe</option>
+                                    <option value="dr. Budi Santoso">dr. Budi Santoso</option>
+                                    <option value="dr. Andi Wijaya">dr. Andi Wijaya</option>
+                                </optgroup>
+                                <optgroup label="Spesialis Anak">
+                                    <option value="Dr. Jane Smith">dr. Jane Smith</option>
+                                    <option value="dr. Citra Dewi">dr. Citra Dewi</option>
+                                    <option value="dr. Eka Putri">dr. Eka Putri</option>
+                                </optgroup>
+                                <optgroup label="Spesialis Penyakit Dalam">
+                                    <option value="Dr. Emily Johnson">dr. Emily Johnson</option>
+                                    <option value="dr. Dian Pratama">dr. Dian Pratama</option>
+                                </optgroup>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-primary">Cari</button>
