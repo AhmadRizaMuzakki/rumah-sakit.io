@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #A594F9;
+}
+nav .nav-link, nav .navbar-brand{
+    color: #F5EFFF;
+}
+#fasilitas{
+    background-color: #CDC1FF;
+}
+#About{
+    background-color: #E5D9F2;
+}
+.card:hover {
+    transform: translateY(-5px); /* Mengangkat kartu sedikit ke atas saat hover */
+}
+.whatsapp-float {
+            position: sticky;
+            width: 50px;
+            height: 50px;
+            bottom: 100px;
+            right: 30px;
+            z-index: 100;
+            float: right;
+        }
+@media screen and (max-width: 500px) {
+    .whatsapp-float {
+        position: sticky;
+            width: 50px;
+            height: 50px;
+            bottom: 100px;
+            right: 30px;
+            z-index: 100;
+            float: right;
+        }
+}
+#Alamat{
+    background-color: #F5EFFF;
+}

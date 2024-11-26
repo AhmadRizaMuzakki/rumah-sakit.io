@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rumah sakit sigap medika</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ini adalah bagian pada navbar -->
+    <nav class="navbar navbar-expand-lg px-4 sticky-lg-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-5 fw-bold" href="#">Rumah Sakit Sigap Medika</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav fs-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fasilitas">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Alamat">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex p-3">
+                <button class="btn btn-success me-5" data-bs-toggle="modal" data-bs-target="#modalCariDokter">Cari Dokter</button>
+                <button class="btn btn-primary me-2">Login</button>
+                <button class="btn btn-secondary me-4">Register</button>
+            </div>
+        </div>
+    </nav>
+    <!-- Start Generation Here -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="take_health.jpg" class="d-block w-100" style="height: auto; max-height: 60vh; width: 100%;" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="health-family.jpg" class="d-block w-100" style="height: auto; max-height: 60vh; width: 100%;" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-fluid pb-5 pt-3" id="About">
+        <div class="container">
+            
+
+            <h1 class="text-center pt-4">About Us</h1>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <img src="pasien.jpg" class="img-fluid rounded-4" alt="About Us Image">
+                </div>
+                <div class="col-md-6">
+                    <p class="fs-5">Rumah Sakit Sigap Medika adalah fasilitas kesehatan terkemuka yang menyediakan
+                        layanan
+                        medis berkualitas tinggi. Dengan tim dokter dan tenaga medis profesional, kami berkomitmen untuk
+                        memberikan perawatan terbaik bagi pasien. Fasilitas kami dilengkapi dengan teknologi medis
+                        terkini
+                        untuk memastikan diagnosis dan pengobatan yang akurat. Kami juga menawarkan berbagai layanan
+                        kesehatan, termasuk rawat inap, rawat jalan, dan layanan darurat 24 jam. Rumah Sakit Sigap
+                        Medika
+                        selalu siap melayani kebutuhan kesehatan Anda dengan penuh dedikasi dan empati.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid " id="fasilitas">
+        <div class="container pb-5 ">
+
+            <h2 class="text-center pt-5">Fasilitas Kami</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                        <img src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top"
+                            width="100%" height="225" alt="Ruang Rawat Inap">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruang Rawat Inap</h5>
+                            <p class="card-text">Ruang Rawat Inap yang nyaman dan dilengkapi dengan fasilitas modern
+                                untuk
+                                kenyamanan pasien.</p>
+                            <button class="btn btn-primary">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                        <img src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top"
+                            width="100%" height="225" alt="Unit Gawat Darurat">
+                        <div class="card-body">
+                            <h5 class="card-title">Unit Gawat Darurat</h5>
+                            <p class="card-text">Unit Gawat Darurat (UGD) yang siap melayani pasien 24 jam dengan tenaga
+                                medis profesional.</p>
+                            <button class="btn btn-primary">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="col">
+                    <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                        <img src="https://plus.unsplash.com/premium_photo-1682145288913-979906a9ebc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top"
+                            width="100%" height="225" alt="Ruang Operasi">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruang Operasi</h5>
+                            <p class="card-text">Ruang Operasi yang steril dan dilengkapi dengan teknologi terbaru untuk
+                                prosedur bedah.</p>
+                            <button class="btn btn-primary">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top"
+                            width="100%" height="225" alt="Ruang Radiologi">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruang Radiologi</h5>
+                            <p class="card-text">Ruang Radiologi dengan mesin X-ray dan MRI untuk pemeriksaan yang
+                                mendetail.</p>
+                            <button class="btn btn-primary">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                        <img src="https://plus.unsplash.com/premium_photo-1661769786626-8025c37907ae?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top" width="100%"
+                            height="225" alt="Apotek">
+                        <div class="card-body">
+                            <h5 class="card-title">Apotek</h5>
+                            <p class="card-text">Apotek yang menyediakan berbagai obat-obatan dan kebutuhan medis
+                                lainnya.
+                            </p>
+                            <button class="btn btn-primary">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Dokter Kami</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                    <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Dr. John Doe">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. John Doe</h5>
+                        <p class="card-text">Spesialis Bedah Umum dengan pengalaman lebih dari 10 tahun.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Dr. Jane Smith">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Jane Smith</h5>
+                        <p class="card-text">Spesialis Anak yang berdedikasi untuk kesehatan anak-anak.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                    <img src="https://images.unsplash.com/photo-1612276529731-4b21494e6d71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Dr. Emily Johnson">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Emily Johnson</h5>
+                        <p class="card-text">Spesialis Penyakit Dalam dengan keahlian dalam diagnosis dan perawatan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="card shadow border-0 rounded-4 p-4">
+            <h2 class="text-center mb-4">Daftar Obat</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nama Obat</th>
+                            <th>Deskripsi</th>
+                            <th>Harga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paracetamol</td>
+                            <td>Obat untuk meredakan demam dan nyeri ringan hingga sedang.</td>
+                            <td>Rp 10.000</td>
+                        </tr>
+                        <tr>
+                            <td>Amoxicillin</td>
+                            <td>Antibiotik untuk mengobati berbagai infeksi bakteri.</td>
+                            <td>Rp 25.000</td>
+                        </tr>
+                        <tr>
+                            <td>Loratadine</td>
+                            <td>Antihistamin untuk mengobati alergi.</td>
+                            <td>Rp 15.000</td>
+                        </tr>
+                        <tr>
+                            <td>Ibuprofen</td>
+                            <td>Obat antiinflamasi nonsteroid untuk mengurangi nyeri dan peradangan.</td>
+                            <td>Rp 20.000</td>
+                        </tr>
+                        <tr>
+                            <td>Omeprazole</td>
+                            <td>Obat untuk mengurangi produksi asam lambung.</td>
+                            <td>Rp 30.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <div class="mt-4">
+            <h3 class="text-center mb-4">Beli Obat</h3>
+            <form id="formBeliObat" action="#" method="post">
+                <div class="mb-3">
+                    <label for="namaObat" class="form-label">Nama Obat</label>
+                    <select class="form-select" id="namaObat" name="namaObat" required>
+                        <option value="" disabled selected>Pilih Obat</option>
+                        <option value="Paracetamol">Paracetamo</option>
+                        <option value="Amoxicillin">Amoxicillin</option>
+                        <option value="Loratadine">Loratadine</option>
+                        <option value="Ibuprofen">Ibuprofen</option>
+                        <option value="Omeprazole">Omeprazole</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="jumlahObat" class="form-label">Jumlah</label>
+                    <input type="number" class="form-control" id="jumlahObat" name="jumlahObat" required>
+                </div>
+                <div class="mb-3">
+                    <label for="alamatPengiriman" class="form-label">Alamat Pengiriman</label>
+                    <input type="text" class="form-control" id="alamatPengiriman" name="alamatPengiriman" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Beli Obat</button>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 pt-4 pb-5 mb-4" id="Alamat">
+        <div class="container-xxl">
+
+            <h2 class="text-center mb-4">Alamat Kami</h2>
+            <div class="row">
+            <div class="col-md-6 mt-3">
+                <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                    <div class="card-body">
+                        <h5 class="card-title">Rumah Sakit Sigap Medika</h5>
+                        <p class="card-text">Jl. Kesehatan No. 123, Jakarta, Indonesia</p>
+                        <p class="card-text">Telepon: (021) 123-4567</p>
+                        <p class="card-text">Email: info@rsabc.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-3">
+                <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                    <div class="card-body">
+                        <h5 class="card-title">Jam Operasional</h5>
+                        <p class="card-text">Senin - Jumat: 08.00 - 20.00</p>
+                        <p class="card-text">Sabtu: 08.00 - 14.00</p>
+                        <p class="card-text">Minggu: Tutup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <div class="card shadow border-0 rounded-4" style="transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+                    <div class="card-body">
+                        <h5 class="card-title">Lokasi Kami</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.5695506789!2d106.689429!3d-6.229728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4b5b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sJl.%20Kesehatan%20No.123%2C%20Jakarta%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1600000000000!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ini adalah icon whatapp -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp" style="width: 60px; height: 60px;">
+    </a>
+    <footer class="bg-dark text-white p-4 text-center" style="position: fixed; bottom: 0; width: 100%; height: 80px;">
+        <p>&copy; 2024 Ahmad Riza Muzakki. All rights reserved.</p>
+    </footer>
+    
+    <!-- modal -->
+    <div class="modal fade" id="modalCariDokter" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Cari Dokter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Konten modal bisa ditambahkan di sini -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="namaDokter" class="form-label">Nama Dokter</label>
+                            <select class="form-select" id="namaDokter">
+                                <option value="" disabled selected>Pilih nama dokter</option>
+                                <optgroup label="Spesialis Bedah Umum">
+                                    <option value="Dr. John Doe">dr. John Doe</option>
+                                    <option value="dr. Budi Santoso">dr. Budi Santoso</option>
+                                    <option value="dr. Andi Wijaya">dr. Andi Wijaya</option>
+                                </optgroup>
+                                <optgroup label="Spesialis Anak">
+                                    <option value="Dr. Jane Smith">dr. Jane Smith</option>
+                                    <option value="dr. Citra Dewi">dr. Citra Dewi</option>
+                                    <option value="dr. Eka Putri">dr. Eka Putri</option>
+                                </optgroup>
+                                <optgroup label="Spesialis Penyakit Dalam">
+                                    <option value="Dr. Emily Johnson">dr. Emily Johnson</option>
+                                    <option value="dr. Dian Pratama">dr. Dian Pratama</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cari</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-primary">Cari</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
